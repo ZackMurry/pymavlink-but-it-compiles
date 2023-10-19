@@ -2097,30 +2097,6 @@ mode_mapping_blimp = {
 }
 
 AP_MAV_TYPE_MODE_MAP_DEFAULT = {
-    # copter
-    mavlink.MAV_TYPE_HELICOPTER:  mode_mapping_acm,
-    mavlink.MAV_TYPE_TRICOPTER:   mode_mapping_acm,
-    mavlink.MAV_TYPE_QUADROTOR:   mode_mapping_acm,
-    mavlink.MAV_TYPE_HEXAROTOR:   mode_mapping_acm,
-    mavlink.MAV_TYPE_OCTOROTOR:   mode_mapping_acm,
-    mavlink.MAV_TYPE_DECAROTOR:   mode_mapping_acm,
-    mavlink.MAV_TYPE_DODECAROTOR: mode_mapping_acm,
-    mavlink.MAV_TYPE_COAXIAL:     mode_mapping_acm,
-    # plane
-    mavlink.MAV_TYPE_FIXED_WING: mode_mapping_apm,
-    mavlink.MAV_TYPE_VTOL_DUOROTOR: mode_mapping_apm,
-    mavlink.MAV_TYPE_VTOL_QUADROTOR: mode_mapping_apm,
-    mavlink.MAV_TYPE_VTOL_TILTROTOR: mode_mapping_apm,
-    # rover
-    mavlink.MAV_TYPE_GROUND_ROVER: mode_mapping_rover,
-    # boat
-    mavlink.MAV_TYPE_SURFACE_BOAT: mode_mapping_rover, # for the time being
-    # tracker
-    mavlink.MAV_TYPE_ANTENNA_TRACKER: mode_mapping_tracker,
-    # sub
-    mavlink.MAV_TYPE_SUBMARINE: mode_mapping_sub,
-    # blimp
-    mavlink.MAV_TYPE_AIRSHIP: mode_mapping_blimp,
 }
 
 
