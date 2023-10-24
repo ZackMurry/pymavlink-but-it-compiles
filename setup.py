@@ -26,7 +26,9 @@ def generate_content():
         mdef_paths = [os.getenv("MDEF")]
 
     else:
-        mdef_paths = [os.path.join('..', 'message_definitions'),
+        mdef_paths = [
+                      os.path.join('..', 'mavlink-ext', 'message_definitions'),
+                      os.path.join('..', 'message_definitions'),
                       os.path.join('mavlink', 'message_definitions'),
                       os.path.join('..', 'mavlink', 'message_definitions'),
                       os.path.join('message_definitions'),
